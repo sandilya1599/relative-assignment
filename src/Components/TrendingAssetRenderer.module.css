@@ -1,0 +1,72 @@
+.card {
+  background-color: #1a1d32;
+  width: 15%;
+  border-radius: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 10px;
+  text-align: center;
+
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 31px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #14172b;
+  box-shadow: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.card-icon-header{
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+}
+
+.card-icon {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-heading{
+  color: #5A5F7D;
+}
+
+.card-popular-pairings{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #14172b;
+  box-shadow: 5px;
+  align-content: center;
+}
+
+.card-price-align{
+  display: flex;
+  flex-direction: row;
+}
+
+.price{
+  flex: 1;
+  justify-content: center;
+}
+
+.price-percentage{
+  justify-content: flex-end;
+}
