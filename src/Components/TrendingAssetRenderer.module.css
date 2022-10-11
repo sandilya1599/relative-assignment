@@ -15,6 +15,7 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .card-item {
@@ -28,11 +29,16 @@
 
 .card-icon-header{
   background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
-  height: 75px;
-  width: 75px;
-  border-radius: 50px;
+  
   margin: auto;
   display: flex;
+  position: relative;
+
+  height: 75px;
+  width: 75px;
+  top: -25px;
+
+  border-radius: 50px;
 }
 
 .card-icon {
